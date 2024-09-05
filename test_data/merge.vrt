@@ -1,0 +1,80 @@
+<VRTDataset rasterXSize="843" rasterYSize="669">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  9.9050039857586683e+01,  2.6949458523584959e-04,  0.0000000000000000e+00,  3.8216757637711574e+01,  0.0000000000000000e+00, -2.6949458523586075e-04</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>nan</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_0_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_0_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="0" yOff="223" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_0_2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="0" yOff="446" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_1_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="281" yOff="0" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_1_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="281" yOff="223" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_1_2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="281" yOff="446" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_2_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="562" yOff="0" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_2_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="562" yOff="223" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">pieces\clip_2_2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="281" RasterYSize="223" DataType="Float32" BlockXSize="281" BlockYSize="7" />
+      <SrcRect xOff="0" yOff="0" xSize="281" ySize="223" />
+      <DstRect xOff="562" yOff="446" xSize="281" ySize="223" />
+      <NODATA>nan</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
